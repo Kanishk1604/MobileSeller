@@ -532,51 +532,51 @@ section{
     padding:.5rem 0;
 }
 
-.footer{
+.help{
     background: #fff;
 }
 
-.footer .box-container{
+.help .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
-.footer .box-container .box h3{
+.help .box-container .box h3{
     font-size: 2.5rem;
     color:var(--black);
     padding:1rem 0;
 }
 
-.footer .box-container .box h3 i{
+.help .box-container .box h3 i{
     color:var(--pink);
 }
 
-.footer .box-container .box .links{
+.help .box-container .box .links{
     display: block;
     font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
 }
 
-.footer .box-container .box .links i{
+.help .box-container .box .links i{
     color:var(--pink);
     padding-right: .5rem;
 }
 
-.footer .box-container .box .links:hover i{
+.help .box-container .box .links:hover i{
     padding-right: 2rem;
 }
 
 
-.footer .box-container .box p{
+.help .box-container .box p{
     line-height: 1.8;
     font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
 }
 
-.footer .box-container .box .share a{
+.fhelp .box-container .box .share a{
     height:4rem;
     width:4rem;
     line-height:4rem;
@@ -588,12 +588,12 @@ section{
     text-align: center;
 }
 
-.footer .box-container .box .share a:hover{
+.help .box-container .box .share a:hover{
     background: var(--pink);
     color: #fff;
 }
 
-.footer .box-container .box .email{
+.help .box-container .box .email{
     width: 100%;
     margin:.7rem 0;
     padding:1rem;
@@ -604,13 +604,13 @@ section{
     text-transform: none;
 }
 
-.footer .box-container .box .payment-img{
+.help .box-container .box .payment-img{
     margin-top: 2rem;
     height: 3rem;
     display: block;
 }
 
-.footer .credit{
+.help .credit{
     text-align: center;
     margin-top: 2rem;
     padding:1rem;
@@ -620,7 +620,7 @@ section{
     border-top: var(--border);
 }
 
-.footer .credit span{
+.help .credit span{
     color:var(--pink);
 }
 
